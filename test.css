@@ -1,0 +1,164 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+html {
+  background: url("../background.jpg");
+  background-position: center center;
+  background-size: cover;
+}
+
+body {
+  background-color: rgba(0, 0, 0, 0.5);
+}
+
+.menulist {
+  position: absolute;
+  z-index: 1;
+  background: #eb00ff;
+  height: 100vh;
+  width: 0;
+  -webkit-transition: 1s;
+  transition: 1s;
+}
+
+.whole-body {
+  z-index: 0;
+  height: 100vh;
+  width: 100vw;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+.whole-body .content {
+  height: 100vh;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-transition: 1s;
+  transition: 1s;
+}
+
+.whole-body .content .main-content {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  width: calc(100vw - 0%);
+}
+
+.whole-body .content .main-content .avatar {
+  margin-top: 7%;
+}
+
+.whole-body .content .main-content .avatar img {
+  border: 15px solid #eb00ff;
+  border-radius: 50%;
+}
+
+.whole-body .content .main-content .name p {
+  color: white;
+  font-family: "Great Vibes", cursive;
+  font-size: 7vw;
+  margin-top: 5px;
+}
+
+.navbar {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  background: transparent;
+}
+
+.navbar .menubar .menubtn {
+  padding-left: 5px;
+}
+
+.navbar .nav-links {
+  padding: 0;
+  padding-top: 2px;
+}
+
+.navbar .nav-links a {
+  text-decoration: none;
+}
+
+.bar1,
+.bar2,
+.bar3 {
+  width: 35px;
+  height: 5px;
+  background-color: #eb00ff;
+  margin: 6px 0;
+}
+
+.closebtn {
+  padding: 9px;
+  padding-right: 15px;
+  position: absolute;
+  right: 15px;
+}
+
+.closebtn .bar1, .closebtn .bar2 {
+  width: 25px;
+  height: 3px;
+  background-color: white;
+  position: absolute;
+}
+
+.closebtn .bar1 {
+  -webkit-transform: rotate(45deg);
+          transform: rotate(45deg);
+}
+
+.closebtn .bar2 {
+  -webkit-transform: rotate(-45deg);
+          transform: rotate(-45deg);
+}
+
+.footer {
+  position: fixed;
+  bottom: 2px;
+  -webkit-box-flex: 1;
+      -ms-flex: 1;
+          flex: 1;
+  text-align: center;
+  color: white;
+}
+
+.footer #heart {
+  color: red;
+}
+
+/* Extra event controlled CSS */
+.menu-button-click {
+  width: 37vw;
+  -webkit-transition: 1s;
+  transition: 1s;
+}
+
+.menuc-button-click {
+  height: 100vh;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  margin-left: 37vw;
+  -webkit-transition: 1s;
+  transition: 1s;
+}
+/*# sourceMappingURL=test.css.map */
