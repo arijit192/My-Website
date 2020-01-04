@@ -1,1 +1,93 @@
-*{margin:0;padding:0}html{background:url("../background.jpg");background-position:center;background-size:cover}body{background-color:rgba(0,0,0,0.5)}.navbar{display:-webkit-box;display:-ms-flexbox;display:flex;-webkit-box-pack:justify;-ms-flex-pack:justify;justify-content:space-between}.navbar .menu{padding:7px}.bar1,.bar2,.bar3{width:35px;height:5px;background-color:#eb00ff;margin:6px 0;-webkit-transition:0.4s;transition:0.4s}.container{min-height:100vh}.nav-links{padding:7px}.nav-links a{text-decoration:none}.avatar img{border:10px solid #eb00ff;border-radius:50%}.footer{position:fixed;bottom:6px;width:100%;text-align:center;background:transparent;color:white}.footer #heart{color:red;font-size:larger}.main-content{text-align:center;min-height:calc(100vh - 59.4px);display:-webkit-box;display:-ms-flexbox;display:flex;-webkit-box-orient:vertical;-webkit-box-direction:normal;-ms-flex-direction:column;flex-direction:column;-webkit-box-pack:center;-ms-flex-pack:center;justify-content:center}.info{padding:20px}.info p{color:white;font-family:"Great Vibes",cursive;font-size:45px}
+* {
+  margin: 0;
+  padding: 0;
+}
+
+html {
+  background: url("../background.jpg");
+  background-position: center center;
+  background-size: cover;
+}
+
+body {
+  background-color: rgba(0, 0, 0, 0.5);
+}
+
+.navbar {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.navbar .menu {
+  padding: 7px;
+}
+
+.bar1,
+.bar2,
+.bar3 {
+  width: 35px;
+  height: 5px;
+  background-color: #eb00ff;
+  margin: 6px 0;
+}
+
+.container {
+  min-height: 100vh;
+}
+
+.nav-links {
+  padding: 7px;
+}
+
+.nav-links a {
+  text-decoration: none;
+}
+
+.avatar img {
+  border: 10px solid #eb00ff;
+  border-radius: 50%;
+}
+
+.footer {
+  position: fixed;
+  bottom: 6px;
+  width: 100%;
+  text-align: center;
+  background: transparent;
+  color: white;
+}
+
+.footer #heart {
+  color: red;
+  font-size: larger;
+}
+
+.main-content {
+  text-align: center;
+  min-height: calc(100vh - 59.4px);
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.info {
+  padding: 20px;
+}
+
+.info p {
+  color: white;
+  font-family: "Great Vibes", cursive;
+  font-size: 45px;
+}
+/*# sourceMappingURL=style.css.map */
