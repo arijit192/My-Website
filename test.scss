@@ -25,6 +25,7 @@ body {
   display: flex;
   flex-direction: column;
   .content {
+    align-items: center;
     height: 100vh;
     display: flex;
     transition: 1s;
@@ -34,9 +35,9 @@ body {
       align-items: center;
       width: calc(100vw - 0%);
       .avatar {
-        margin-top: 7%;
+    
         img {
-          border: 15px solid #eb00ff;
+          border: 10px solid #eb00ff;
           border-radius: 50%;
         }
       }

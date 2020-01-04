@@ -37,6 +37,9 @@ body {
 }
 
 .whole-body .content {
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
   height: 100vh;
   display: -webkit-box;
   display: -ms-flexbox;
@@ -59,12 +62,8 @@ body {
   width: calc(100vw - 0%);
 }
 
-.whole-body .content .main-content .avatar {
-  margin-top: 7%;
-}
-
 .whole-body .content .main-content .avatar img {
-  border: 15px solid #eb00ff;
+  border: 10px solid #eb00ff;
   border-radius: 50%;
 }
 
