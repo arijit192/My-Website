@@ -10,11 +10,63 @@ html {
 body {
   background-color: rgba(0, 0, 0, 0.5);
 }
+.menulist{
+  position: absolute;
+  z-index: 1;
+  background: #eb00ff;
+  height: 100vh;
+  width: 0;
+  transition: 1s;
+}
+.whole-body {
+  z-index: 0;
+  height: 100vh;
+  width: 100vw;
+  display: flex;
+  flex-direction: column;
+  .content {
+    align-items: center;
+    height: 100vh;
+    display: flex;
+    transition: 1s;
+    .main-content {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      width: calc(100vw - 0%);
+      .avatar {
+    
+        img {
+          border: 10px solid #eb00ff;
+          border-radius: 50%;
+        }
+      }
+      .name {
+        p {
+          color: white;
+          font-family: "Great Vibes", cursive;
+          font-size: 7vw;
+          margin-top: 5px;
+        }
+      }
+    }
+  }
+}
 .navbar {
   display: flex;
   justify-content: space-between;
-  .menu {
-    padding: 7px;
+  background: transparent;
+  .menubar {
+    .menubtn {
+      padding-left: 5px;
+    }
+  }
+  .nav-links {
+    padding:0;
+    padding-top: 2px;
+    a {
+      text-decoration: none;
+    }
   }
 }
 .bar1,
@@ -25,45 +77,44 @@ body {
   background-color: #eb00ff;
   margin: 6px 0;
 }
-.container {
-  min-height: 100vh;
-}
-.nav-links {
-  padding: 7px;
-  a {
-    text-decoration: none;
+.closebtn {
+  padding: 9px;
+  padding-right: 15px;
+  .bar1, .bar2{
+    width: 25px;
+    height: 3px;
+    background-color: white;
+    position: absolute;
   }
-}
-.avatar {
-  img {
-    border: 10px solid #eb00ff;
-    border-radius: 50%;
+  .bar1 {
+    transform: rotate(45deg);
   }
+  .bar2 {
+    transform: rotate(-45deg);
+  }
+  position: absolute;
+  right: 15px;
 }
 .footer {
   position: fixed;
-  bottom: 6px;
-  width: 100%;
+  bottom: 2px;
+  flex: 1;
   text-align: center;
-  background: transparent;
   color: white;
   #heart {
     color: red;
-    font-size: larger;
   }
 }
-.main-content {
-  text-align: center;
-  min-height: calc(100vh - 59.4px);
+
+/* Extra event controlled CSS */
+
+.menu-button-click {
+  width: 37vw;
+  transition: 1s;
+}
+.menuc-button-click{
+  height: 100vh;
   display: flex;
-  flex-direction: column;
-  justify-content: center;
-}
-.info {
-  padding: 20px;
-  p {
-    color: white;
-    font-family: "Great Vibes", cursive;
-    font-size: 45px;
-  }
+  margin-left: 37vw;
+  transition: 1s;
 }
